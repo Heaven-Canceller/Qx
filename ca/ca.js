@@ -2,7 +2,7 @@
 
 ************************
 [rewrite_local]
-^https:\/\/ca\.completeanatomy\.cn\/api\/v13\/users url script-response-body ca.js
+^https:\/\/ca\.completeanatomy\.cn\/api\/v13\/users url script-response-body https://raw.githubusercontent.com/Heaven-Canceller/Qx/ca/ca.js
 [mimt]
 hostname = ca.completeanatomy.cn
 
