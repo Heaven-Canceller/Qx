@@ -8,9 +8,9 @@
 *******************************
 %¥
 [rewrite_local]
-^https?:\/\/ca\.completeanatomy\.cn\/api\/v13\/users\/info.*? url script-request-header completeanatomy.js
+^https?:\/\/ca\.completeanatomy\.cn\/api\/v13\/users\/info.*? url script-request-header https://raw.githubusercontent.com/Heaven-Canceller/Qx/main/ca/ca.js
 
-^https?:\/\/ca\.completeanatomy\.cn\/api\/v13\/users\/info*? url script-response-body completeanatomy.js
+^https?:\/\/ca\.completeanatomy\.cn\/api\/v13\/users\/info*? url script-response-body https://raw.githubusercontent.com/Heaven-Canceller/Qx/main/ca/ca.js
 
 
 [mitm]
